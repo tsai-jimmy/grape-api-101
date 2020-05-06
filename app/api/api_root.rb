@@ -3,5 +3,9 @@ class ApiRoot < Grape::API
 
   format :json
 
+  before do
+    header "Access-Control-Allow-Origin", "*"
+  end
+
   mount ApiV0::Base
 end
