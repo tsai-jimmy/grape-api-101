@@ -3,6 +3,7 @@ module ApiV0
     version 'v0', using: :path
 
     helpers ::ApiV0::Helpers
+    helpers ::ApiV0::StrongParamsHelpers
 
     use ApiV0::Auth::Middleware
 
