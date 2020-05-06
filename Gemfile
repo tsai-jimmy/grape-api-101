@@ -29,6 +29,7 @@ gem "grape"
 gem "grape-entity"
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
+gem "grape_on_rails_routes"
 gem "devise"
 
 # Reduces boot times through caching; required in config/boot.rb
