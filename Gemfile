@@ -27,6 +27,8 @@ gem 'jbuilder', '~> 2.7'
 
 gem "grape"
 gem "grape-entity"
+gem 'grape-swagger'
+gem 'grape-swagger-rails'
 gem "devise"
 
 # Reduces boot times through caching; required in config/boot.rb
