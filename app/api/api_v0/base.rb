@@ -9,5 +9,6 @@ module ApiV0
     include ApiV0::ExceptionHandlers
 
     mount Ping
+    mount Posts
   end
 end
